@@ -1,0 +1,49 @@
+h1 {
+    padding-left: 20pt;
+}
+
+img {
+    width: 100%;
+}
+
+.job, .bal {
+    font-size: 15pt;
+}
+
+.job {
+    padding-right: 15px;
+    text-align: left;
+    border-right: 1px solid rgb(136, 136, 136);
+}
+
+.hc {
+    color: #0073ae;
+}
+
+.anyad {
+    padding-left: 4pt;
+}
+
+.kapcs {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bal {
+    padding-left: 20px;
+}
+
+.wrapper {
+    margin-bottom: 150px;
+  }
+
+.send {
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: #0073ae;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .job {width: 100%;border: none;}
+    .bal {width: 100%;}
+}

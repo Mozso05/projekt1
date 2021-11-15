@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Kapcsolat</title>
+    </head>
+    <body>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark  style="width: 100%;"">
+            <div class="container-fluid">
+              <a class="navbar-brand brand-logo" href="index.html"><img src="logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Szolgáltatások
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="komm.html">Vállalkozói szolgáltatások</a></li>
+                      <li><a class="dropdown-item" href="ITszolg.html">IT Szolgáltatások</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Keresés</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <div class="wrapper">
+            <img src="01-kesz-hero-small-k.jpg" alt="kep">
+          <div class="row kapcs mt-5">
+            <div class="col-xxl-3 col-xl-3"></div>
+            <div class="col-xxl-3 col-xl-12 job">
+              <p class="h3 pb-2">Kapcsolat</p>
+              <p class="h5 hc">KÉSZ Mester Irodaház</p>
+              <p class="small">cím: <i>1095 Budapest, Mester u. 87.</i><br>
+                telefon: <i>+36 1 4766 500, +36 1 4766<br> 900</i><br>email: <a href="mailto:kesz@kesz.hu"><i>kesz@kesz.hu</i></a></p>
+              <p class="h5 hc">KÉSZ Építő Zrt. szegedi <br>irodaház</p>
+              <p class="small">cím: <i>6722 Szeged, Gutenberg u. 25-<br>27.</i><br>
+                telefon: <i>+36 62 566 600</i><br>email: <a href="mailto:kesz@kesz.hu"><i>kesz@kesz.hu</i></a></p>
+              <p class="h5 hc">KÉSZ Ipari Park</p>
+              <p class="small">cím: <i>6000 Kecskemét, Izsáki út 6</i><br>
+                telefon: <I>+36 76 515 200</I><br>email: <a href="mailto:kesz@kesz.hu"><i>kesz@kesz.hu</i></a></p>
+              <p class="small"><a href="https://www.kesz.hu/sites/default/files/jegyzokonyv-a-joteljesitesi-garancia-visszatartas.pdf">jegyzőkönyv jóteljesítési garancia<br>visszatartás tárgyában</a></p>
+            </div>
+            <div class="col-xxl-4 col-xl-12 mt-5 bal">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="name">Név:</label>
+                  <input type="name" class="form-control" placeholder="Név" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email cím:</label>
+                  <input type="email" class="form-control" placeholder="Email" id="email">
+                </div>
+                <div class="form-group mb-3">
+                  <label for="phone">Telefonszám:</label>
+                  <input type="phone" class="form-control" placeholder="Telefonszám" id="phone">
+                </div>
+                <textarea rows="4" cols="59" name="comment" form="usrform" placeholder="Üzenet..."></textarea>
+                  <div class="checkbox small">
+                    <label><input type="checkbox">Elfogadom az <a href="https://www.kesz.hu/adatkezelesi-tajekoztato">adatvédelmi nyilatkozatot</a></label>
+                  </div>
+                  <button type="submit" class="btn btn-default send mt-3">beküldés</button>
+              </form>
+            </div>
+          </div>
+          </div>
+
+          <footer class="text-center text-lg-start text-white fixed-bottom" style="background-color: #3e4551">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2)">
+                <p>Copyright 2018-2021 KÉSZ Csoport. Minden jog fenntartva <br>DESIGN BY HINORA - POWERED BY 
+               <a class="text-white" href="http://www.ibcnet.hu/">IBCNET MAGYARORSZÁG KFT.</a></p>
+            </div>
+          </footer>
+    </body>
+</html>
